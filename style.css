@@ -1,0 +1,238 @@
+/* Font Family */
+
+/* body {
+    font-family: Georgia, Times, serif;}
+
+
+h1, h2 {
+    font-family: Arial, Verdana, sans-serif;}
+
+
+.credits {
+    font-family: "Courier New", Courier, 
+    monospace;} */
+
+/* Font Size */
+
+/* pixels */
+/* p{
+    font-size: 170px;
+} */
+
+/* persentage */
+/* p{
+    font-size: 170%;
+} */
+
+/* Defoult Value */
+/* p{
+    position: fixed;
+} */
+
+/* Font Face */
+/* @font-face{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    src: url();
+}p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h1{
+    font-family: cursive;
+} */
+
+
+/* Font Weight */
+
+/* p{
+    font-weight: 900;
+}  */
+
+/* Font Style */
+
+/* #NO1{
+    font-style: italic;
+}
+
+#NO2{
+
+    font-style: oblique;
+}
+
+#NO3{
+    font-style: inherit;
+} */
+
+
+/* TEXT TRANSFORMATION */
+
+/* lowercase */
+/* #l{
+    text-transform: lowercase;
+} */
+/* uppercase*/
+/* #u{
+    text-transform: uppercase;
+} */
+/* capitalize*/
+/* #c{
+    text-transform: capitalize;
+} */
+
+
+/* text decoration */
+
+/* #none{
+    text-decoration: none;
+}
+#underline{
+    text-decoration: underline;
+}
+#overline{
+    text-decoration: overline;
+}
+#line-through{
+    text-decoration:line-through;
+}
+#blank{
+    text-decoration: blink;
+} */
+
+
+/* line hight */
+
+/* p{
+    line-height: 8px;
+}
+h6{
+    line-height: 30px;
+} */
+
+
+/* letter space, word space */
+
+/* h1{
+    word-spacing: 100px;
+    letter-spacing: 100px;
+} */
+
+/* text align */
+
+/* h1{
+    text-align: center;
+}
+p{
+    text-align: justify;
+} */
+
+/* vertical align */
+
+/* img{
+    vertical-align: middle;
+} */
+
+/* text indent */
+
+/* h1{
+    text-indent: 10px;
+}
+p{
+    text-indent: 100px;
+} */
+
+/* text shadow */
+
+/* h1{
+    background-color: pink;
+    color: aqua;
+    text-shadow: 1px 1px 2px red;
+} */
+
+
+/* FIRST LETTER OR FIRST LINE */
+
+/* p::first-letter{
+    color: green;
+    background-color: aqua;
+}
+
+p::first-line{
+    color: yellow;
+    background-color: black;
+} */
+
+
+/* Styling LINKs */
+
+/* a:link{
+    color: green;
+}
+
+a:visited{
+    color: brown;
+} */
+
+
+/* Responding User's */
+
+/* hover */
+/* input.BATAN:hover{
+    color: white;
+    background-color: red;
+} */
+
+/* Active */
+
+/* input.BATAN:active{
+    color: blue;
+    background-color: chartreuse;
+} */
+
+/* Focus */
+
+/* input.text:focus{
+    color: whitesmoke;
+    background-color: black;
+} */
+
+
+  /* Attrebute Selector */
+
+
+  /* Existence */
+
+  /* h1[test]{
+    color: red;
+} */
+
+/* Equality */
+
+/* h1[test="hi"]{
+    color: blue;
+} */
+
+
+/* Space */
+
+/* hi[test~='h1']{
+color: greenyellow;
+} */
+
+
+/* prefix */
+
+/* h1[test^="h"]{
+    color: red;
+} */
+
+/* substring */
+
+/* h1[test*="in"]{
+    color: red;
+} */
+
+
+/* suffix */
+
+h1[test$="oom"]{
+    color: blue;
+}
